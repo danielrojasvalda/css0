@@ -1,0 +1,19 @@
+/* Variables CSS (custom properties) */
+
+:root {
+    --color: purple;
+}
+
+h1 {
+    /* color: red; */
+    color: var(--color);
+    font-size:1em;
+}
+
+p {
+    color: var(--color);
+}
+
+ul {
+    color: red;
+}
